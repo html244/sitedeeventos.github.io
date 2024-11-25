@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de Ingressos</title>
+    <link rel="stylesheet" href="teste.css">
+</head>
+<body>
+    <div class="ticket-container">
+        <h2>Compre seu Ingresso</h2>
+        <form>
+            <label for="event">Evento:</label>
+            <select id="event" name="event">
+                <option value="show">Show</option>
+                <option value="teatro">Teatro</option>
+                <option value="cinema">Cinema</option>
+            </select>
+
+            <label for="quantity">Quantidade:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10">
+
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name">
+
+            <button type="submit">Comprar</button>
+        </form>
+    </div>
+</body>
+</html>
